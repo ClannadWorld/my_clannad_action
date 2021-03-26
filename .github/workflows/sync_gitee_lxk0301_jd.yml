@@ -1,0 +1,22 @@
+name: 同步lxk0301的jd
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 30 0,2,4,6,8,10,12,14,16,18 * * *
+  push:
+    branches: [ master ]
+  repository_dispatch:
+    types: sync_gitee_lxk0301_jd
+jobs:
+  repo-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: sync github -> gitee
+        uses: Yikun/hub-mirror-action@master
+        with:
+          src: github/FairyWorld
+          dst: gitee/fairyworld
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
+          static_list: "my_jd_scripts_2021_03"
+          force_update: true
