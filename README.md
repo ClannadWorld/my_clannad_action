@@ -33,3 +33,5 @@
 - REPOSITORY: 运行指定仓库(happy888888/BiliExp)
 
 - REF: 运行指定仓库分支代码(master)
+
+- DELAY: 运行action后延时执行任务(整数+单位(s,m,h), 不带单位默认为s(秒))
