@@ -15,7 +15,7 @@ jobs:
             - name: 拉取代码
               uses: actions/checkout@v2
               with:
-                  repository: wuzhi01/MyActions
+                  repository: wuzhi03/MyActions
                   ref: main
             - name: Use Node.js
               uses: actions/setup-node@v1
