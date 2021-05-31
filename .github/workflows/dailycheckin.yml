@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: hs20073/dailycheckin
+          repository: qihengfei/dailycheckin
           ref: main
 
       - name: 'Set up Python'
