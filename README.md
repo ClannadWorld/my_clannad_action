@@ -38,4 +38,4 @@
 
 ## 三、每日签到合集
 
-### [环境变量](https://gitee.com/sitoi/dailycheckin)
+### [环境变量](https://gitee.com/sitoi/dailycheckin/blob/main/docs/settings.md)
