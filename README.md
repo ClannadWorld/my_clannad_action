@@ -30,7 +30,7 @@
 
 - ADVCONFIG: 任务配置
 
-- REPOSITORY: 运行指定仓库(happy888888/BiliExp, MaxSecurity/BiliExper)
+- REPOSITORY: 运行指定仓库(happy888888/BiliExp, zzfengy2/BiliExper, MaxSecurity/BiliExper)
 
 - REF: 运行指定仓库分支代码(master)
 
